@@ -6,9 +6,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from parser_svoefermerstvo.browser import create_driver
-from parser_svoefermerstvo.progress import ProgressTracker
-from parser_svoefermerstvo.scraper import SvoeFermerstvoScraper, emails_to_rows
+from browser import create_driver
+from progress import ProgressTracker
+from scraper import SvoeFermerstvoScraper, emails_to_rows
 
 
 def configure_logging(log_file: Path, verbose: bool) -> None:

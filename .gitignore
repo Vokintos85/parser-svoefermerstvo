@@ -1,0 +1,77 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files and results
+working_results/
+output/
+mass_results/
+*.xlsx
+*.csv
+*.log
+
+# Temporary and debug files
+browser_*.py
+debug_*.py
+*_debug.*
+test_*.py
+*_fixed.py
+*_corrected.py
+*_improved.py
+*_final.py
+*_smart.py
+*_enhanced.py
+emails_*.csv
+emails_*.xlsx
+page_debug.html
+debug_dynamic.html
+
+# Specific temporary files
+check_filtered_page.py
+correct_email_scraper.py
+fixed_company_scraper.py
+fixed_scraper.log
+fixed_tab_scraper.py
+parse_101_110.py
+parser_100_pages.log
+progress_fixed.py
+reset_progress.py
+resilient_scraper.log
+resilient_scraper.py
+run_100_pages.py
+run_contacts.py
+run_final.py
+run_final_working.py
+run_fixed_simple.py
+run_improved.py
+run_improved_fixed.py
+run_parser_corrected.py
+run_parser_final.py
+run_parser_fixed.py
+run_parser_improved.py
+run_smart_parser.py
+run_smart_parser_fixed.py
+scraper_corrected.py
+scraper_enhanced.py
+scraper_final.py
+scraper_improved.py
+scraper_improved_fixed.py
+scraper_seller_points.py
+scraper_smart.py
+scraper_smart_fixed.py
+simple_debug.py
+simple_email_scraper.py
+test_50_pages.py
